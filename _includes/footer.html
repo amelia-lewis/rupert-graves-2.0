@@ -14,15 +14,14 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
+          </li>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+
+          {%- include social.html -%}
+        </ul>
       </div>
 
       <div class="footer-col footer-col-3">
