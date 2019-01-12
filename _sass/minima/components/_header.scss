@@ -1,0 +1,14 @@
+// ===============
+// Header
+// ===============
+
+.site-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+
+  .page-link {
+    color: white;
+  }
+}
