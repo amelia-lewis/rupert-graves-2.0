@@ -4,10 +4,16 @@
 
 .post {
   &--header {
-
+    margin: 0 0 $spacer-xl;
   }
 
   &--meta {
 
+  }
+
+  &--content {
+    a {
+      @extend .link-highlight;
+    }
   }
 }

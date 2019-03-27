@@ -58,6 +58,7 @@ a {
 .link-highlight {
   display: inline;
   line-height: 1em;
+  font-weight: $font-weight-bold;
 
   &:hover {
     background: white;
