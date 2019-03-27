@@ -1,7 +1,43 @@
-// ===============
-// Typography
-// ===============
+// ====================
+// TYPOGRAPHY
+// ====================
 
-h1, h2, h3, h4, h5 {
+// Sizes & Margins
+// --------------------
+
+h1, h2, h3, h4, h5, p {
   margin: 0 0 0.5em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.h1-hero {
+  position: relative;
+  font-size: 8em;
+  line-height: 1.1em;
+  font-weight: 900;
+  margin: 6 * $spacer-xl 0;
+}
+
+// Links
+// --------------------
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

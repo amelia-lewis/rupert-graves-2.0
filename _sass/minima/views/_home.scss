@@ -3,8 +3,37 @@
 // ===============
 
 .home {
-  position: relative;
-  height: 100vh;
-  background: url("images/site/rg-01.jpg") no-repeat center;
-  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+
+  .left-side {
+    overflow: auto;
+    padding: 0 2 * $spacer-xl;
+  }
+
+  .right-side {
+    background: url("images/site/rg-01.jpg") no-repeat center;
+    background-size: cover;
+  }
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin: 0 0 2 * $spacer-xl;
+
+    a {
+      display: inline;
+      background: rgba(white, 0);
+      transition: background 300ms;
+
+      &:hover {
+        background: rgba(white, 0.2);
+      }
+    }
+  }
 }
