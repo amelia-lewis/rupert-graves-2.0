@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maurice 30th Anniversary Blu-Ray Release Confirmed"
-categories: film
+category: Film
 ---
 Special features include:
 

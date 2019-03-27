@@ -14,13 +14,16 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
         <p >{{ post.date | date: date_format }}</p>
         <h3>
-          <a class="link-highlight" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+          {%- if post.external_url -%}
+            <a class="link-highlight" href="{{ post.external_url }}" target="_blank">
+              {{ post.title | escape }} ↬
+            </a>
+          {%- else -%}
+            <a class="link-highlight" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          {%- endif -%}
         </h3>
-        <!-- {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%} -->
       </li>
       {%- endfor -%}
     </ul>

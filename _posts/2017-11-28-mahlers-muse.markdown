@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mahler's Muse"
-categories: radio
+category: Radio
 ---
 Rupert has just finished recording the radio play Mahler's Muse by John Banville in Belfast for BBC Radio. He plays Gustav Mahler. Also starring Olivia Williams.
 

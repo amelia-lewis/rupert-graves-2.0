@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Room With a View (Special 30th Anniversary)"
-categories: film
+category: Film
 ---
 Thursday, October 5 (8.30 pm) Cinema Odeon Firenze, in collaboration with the City of Florence, FST Fondazione Sistema Toscana, the British Institute Florence and New York University, presents the gala evening with the CAMERA WITH VISTA film, in the presence of director James Ivory actors Julian Sands and Helena Bonham Carter.
 

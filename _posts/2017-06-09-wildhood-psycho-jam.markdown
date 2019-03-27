@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wildhood — Psycho Jam (Crazy Video)"
-categories: extra
+category: Extra
 ---
 The new single, "Psycho Jam (Crazy Video)" features guest appearences from Game Of Thrones star Michelle Fairley, Rupert Graves and actor Luke Pasqualino ("Skins", "The Musketeers", "Our Girl").
 

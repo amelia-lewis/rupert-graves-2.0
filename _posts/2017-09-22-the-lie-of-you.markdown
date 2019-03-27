@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Lie of You"
-categories: film
+category: Film
 ---
 Rupert has just finished filming "The Lie of You" playing the role of Eddie.
 

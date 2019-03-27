@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swimming With Men"
-categories: film
+category: Film
 ---
 Written by Aschlin Ditta, and directed by Oliver Parker, the film, is based on the acclaimed documentary "Men Who Swim" about the world of male synchronized swimming.
 

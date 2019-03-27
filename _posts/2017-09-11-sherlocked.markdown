@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sherlocked UK"
-categories: tv
+category: TV
 ---
 Rupert Graves will be appearing at Sherlocked UK!
 

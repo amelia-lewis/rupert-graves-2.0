@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Krypton"
-categories: tv
+category: TV
 ---
 Rupert will guest star in the new TV series by Syfy called Krypton, playing the role of Ter-El. Learn more about the show [here](http://www.syfy.com/krypton).
 
