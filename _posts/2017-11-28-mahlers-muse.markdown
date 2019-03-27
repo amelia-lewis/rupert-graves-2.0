@@ -5,12 +5,18 @@ category: Radio
 ---
 Rupert has just finished recording the radio play Mahler's Muse by John Banville in Belfast for BBC Radio. He plays Gustav Mahler. Also starring Olivia Williams.
 
+{% include image.html src="mahlers-muse/mahler.jpg" caption="Gustav Mahler" %}
+
 Alma Mahler was one of the most remarkable women of the 20th century, one whose magnetic aura touched an entire generation of creative artists. John Banville's drama explores how her marriage to the great Austrian composer reaches a crisis, the "hammer blow" of Mahler discovering his wife's affair.
 
-Accompanist — Keith McAlister
+### Credits
 
-Writer — John Banville
+Accompanist: Keith McAlister
 
-Producer — Gemma McMullan
+Writer: John Banville
+
+Producer: Gemma McMullan
+
+---
 
 [More Info ↬](https://www.bbc.co.uk/programmes/b09h361j)
