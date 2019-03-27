@@ -1,0 +1,13 @@
+// ====================
+// POST LIST
+// ====================
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  .post-list-item {
+    margin: 0 0 2 * $spacer-xl;
+  }
+}

@@ -2,7 +2,7 @@
 // TYPOGRAPHY
 // ====================
 
-// Sizes & Margins
+// Sizes, Weights & Margins
 // --------------------
 
 h1, h2, h3, h4, h5, p {
@@ -11,14 +11,27 @@ h1, h2, h3, h4, h5, p {
 
 h1 {
   font-size: 4em;
+  font-weight: $font-weight-heavy;
 }
 
 h2 {
   font-size: 3em;
+  font-weight: $font-weight-heavy;
 }
 
 h3 {
   font-size: 2em;
+  font-weight: $font-weight-bold;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: $font-weight-bold;
+}
+
+h5 {
+  font-size: 0.8em;
+  font-weight: $font-weight-bold;
 }
 
 p {
@@ -30,7 +43,7 @@ p {
   position: relative;
   font-size: 8em;
   line-height: 1.1em;
-  font-weight: 900;
+  font-weight: $font-weight-heavy;
   margin: 6 * $spacer-xl 0;
 }
 
@@ -40,4 +53,13 @@ p {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.link-highlight {
+  display: inline;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
 }

@@ -3,9 +3,9 @@
 // ===============
 
 body {
-  background: $color-primary;
+  background: black;
   color: white;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: $fontstack;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -20,8 +20,8 @@ body {
 }
 
 .page-wrapper {
-  width: calc(100% - #{spacer-lg});
-  max-width: 1200px;
+  width: calc(100% - #{$spacer-lg});
+  max-width: 960px;
   margin: 0 auto;
-  padding: 2 * $spacer-xl 0;
+  padding: 3 * $spacer-xl 0;
 }

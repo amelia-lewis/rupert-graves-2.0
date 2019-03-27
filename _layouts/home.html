@@ -3,32 +3,33 @@ layout: default
 ---
 
 <div class="home">
-  <div class="left-side">
+  <div class="home--left-side">
     <h1 class="h1-hero">{{ site.title }}</h1>
 
-    {%- if site.posts.size > 0 -%}
-      <h2>Latest News</h2>
+    <h2>Latest News</h2>
 
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b. %-d, %Y" -%}
-          <p class="post-meta">{{ post.date | date: date_format }}</p>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          <!-- {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%} -->
-        </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+    <ul class="post-list">
+      {%- for post in site.posts limit:10 -%}
+      <li class="post-list-item">
+        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+        <p >{{ post.date | date: date_format }}</p>
+        <h3>
+          <a class="link-highlight" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        <!-- {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%} -->
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <h4><a class="link-highlight" href="/news">View Older News →</a></h4>
+
   </div>
 
-  <div class="right-side"></div>
+  <div class="home--right-side"></div>
 
   {{ content }}
 </div>
