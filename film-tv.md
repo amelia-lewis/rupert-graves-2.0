@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: page
 title: Film & TV
 permalink: /work/film-tv
 ---

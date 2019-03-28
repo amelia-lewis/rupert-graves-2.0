@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: page
 title: Stage
 permalink: /work/stage
 ---
