@@ -1,6 +1,6 @@
-<div class="post--image">
-  <img class="post--image__img" src="{{ include.src | prepend: '/assets/images/' | prepend: site.baseurl }}" alt="{{ include.src | replace: '-', ' ' | replace: '.jpg', ' ' | replace: '.png', ' ' }}">
+<div class="image">
+  <img class="image__img" src="{{ include.src | prepend: '/assets/images/' | prepend: site.baseurl }}" alt="{{ include.src | replace: '-', ' ' | replace: '.jpg', ' ' | replace: '.png', ' ' }}">
   {% if include.caption %}
-    <div class="post--image__caption">{{ include.caption | strip }}</div>
+    <div class="image__caption">{{ include.caption | strip }}</div>
   {% endif %}
 </div>

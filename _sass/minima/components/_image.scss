@@ -1,0 +1,17 @@
+.image {
+  background: rgba(white, 0.1);
+  margin: $spacer-xl 0;
+
+  &__img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  &__caption {
+    font-size: 0.8em;
+    color: rgba(white, 0.5);
+    padding: $spacer-sm 0;
+    background: black;
+  }
+}
