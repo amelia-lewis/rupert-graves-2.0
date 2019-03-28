@@ -1,20 +1,14 @@
 // ====================
-// POST
+// PAGE
 // ====================
 
-.post {
+.page {
   &--header {
     margin: 0 0 $spacer-xl;
   }
 
   &--title {
     margin: 0 0 $spacer-md;
-  }
-
-  &--category {
-    background: rgba(white, 0.3);
-    padding: 0.5 * $spacer-xs $spacer-sm;
-    font-size: 0.8em;
   }
 
   &--content {

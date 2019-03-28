@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 h1 {
-  font-size: 3.4em;
+  font-size: 4em;
   font-weight: $font-weight-heavy;
 }
 
@@ -47,6 +47,7 @@ p {
   margin: 6 * $spacer-xl 0;
 }
 
+
 // Links
 // --------------------
 
@@ -55,13 +56,24 @@ a {
   text-decoration: none;
 }
 
-.link-highlight {
+a:not([class]) {
   display: inline;
   line-height: 1em;
   font-weight: $font-weight-bold;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background: white;
     color: black;
   }
+}
+
+
+// Horizontal Rule
+// --------------------
+
+hr {
+  margin: $spacer-lg 0;
+  border-color: rgba(white, 0.15);
+  border-style: solid;
 }
