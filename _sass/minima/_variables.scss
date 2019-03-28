@@ -7,8 +7,13 @@ $font-weight-regular: 400;
 $font-weight-bold: 700;
 $font-weight-heavy: 900;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
+
+$screen-xs: 36em;
+$screen-sm: 48em;
+$screen-md: 64em;
+$screen-lg: 75em;
 
 $spacer-xs: 4px;
 $spacer-sm: 8px;

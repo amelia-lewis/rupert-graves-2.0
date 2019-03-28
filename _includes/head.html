@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
   <!-- generics -->
   <link rel="icon" href="/assets/favicon/favicon-32.png" sizes="32x32">
   <link rel="icon" href="/assets/favicon/favicon-57.png" sizes="57x57">
@@ -25,8 +26,10 @@
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-TileImage" content="/assets/favicon/favicon-144.png">
 
-  <!— Windows 8.1 + IE11 and above —>
+  <!-- Windows 8.1 + IE11 and above -->
+
   <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml" />
+
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
