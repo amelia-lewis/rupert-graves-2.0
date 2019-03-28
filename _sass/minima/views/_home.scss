@@ -4,7 +4,7 @@
 
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 100vh;
 
   &--left-side {
@@ -15,5 +15,13 @@
   &--right-side {
     background: url("images/site/rg-01.jpg") no-repeat center;
     background-size: cover;
+  }
+
+  @include media-query($screen-md) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @include media-query($screen-lg) {
+    grid-template-columns: 1fr 1fr;
   }
 }
