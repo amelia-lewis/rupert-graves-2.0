@@ -1,34 +1,16 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-
-          {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {%- endif -%}
-
-          {%- include social.html -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
+<footer class="site-footer">
+  <h2>Contact</h2>
+  <div class="footer-col">
+    <h4>To write to Rupert directly, please use the following address:</h4>
   </div>
-
+  <div class="footer-col">
+    <p>
+      F.A.O. Rupert Graves<br />
+      United Agents<br />
+      12-26 Lexington Street<br />
+      London<br />
+      W1F OLE
+    </p>
+    <small>Please note that Rupert receives a huge amount of correspondence, and it may take a while for your letter to be answered, depending on his schedule. Please include a self-addressed envelope, and a photo if you wish to have it signed.</small>
+  </div>
 </footer>

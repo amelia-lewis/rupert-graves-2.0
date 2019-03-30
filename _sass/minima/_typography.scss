@@ -5,7 +5,11 @@
 // Sizes, Weights & Margins
 // --------------------
 
-h1, h2, h3, h4, h5, p {
+h1, h2 {
+  margin: 0 0 $spacer-md;
+}
+
+h3, h4, h5, p {
   margin: 0 0 $spacer-sm;
 }
 
@@ -26,6 +30,7 @@ h3 {
 
 h4 {
   font-size: 1em;
+  line-height: 1.5em;
   font-weight: $font-weight-bold;
 }
 
@@ -39,12 +44,21 @@ p {
   line-height: 1.5em;
 }
 
+small {
+  font-size: 0.8em;
+}
+
 .h1-hero {
   position: relative;
-  font-size: 8em;
+  font-size: 4em;
   line-height: 1.1em;
   font-weight: $font-weight-heavy;
-  margin: 6 * $spacer-xl 0;
+  margin: 3 * $spacer-xl 0;
+
+  @include media-query($screen-md) {
+    font-size: 8em;
+    margin: 3 * $spacer-xl 0 5 * $spacer-xl;
+  }
 }
 
 

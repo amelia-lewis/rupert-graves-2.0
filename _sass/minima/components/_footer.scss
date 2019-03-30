@@ -1,0 +1,23 @@
+// ====================
+// FOOTER
+// ====================
+
+.site-footer {
+  margin: 2 * $spacer-xl 0 0;
+
+  h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  small {
+    color: rgba(white, 0.5);
+  }
+
+  @include media-query($screen-md) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+    margin: 4 * $spacer-xl 0 0;
+  }
+}

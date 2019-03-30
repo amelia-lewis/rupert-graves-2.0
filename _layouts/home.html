@@ -1,24 +1,16 @@
 ---
 layout: default
 ---
-
 <div class="home">
-  <div class="home--left-side">
-    <h1 class="h1-hero">{{ site.title }}</h1>
+  <h1 class="h1-hero">{{ site.title }}</h1>
 
-    <h2>Latest News</h2>
+  <h2>Latest News</h2>
 
-    <div class="post-list">
-      {%- for post in site.posts limit:5 -%}
-        {% include post-preview.html post=post %}
-      {%- endfor -%}
-    </div>
-
-    <h4><a class="link-highlight" href="/news">Older News</a></h4>
-
+  <div class="post-list">
+    {%- for post in site.posts limit:5 -%}
+      {% include post-preview.html post=post %}
+    {%- endfor -%}
   </div>
 
-  <div class="home--right-side"></div>
-
-  {{ content }}
+  <h4><a href="/news">Older News</a></h4>
 </div>
