@@ -3,5 +3,9 @@
 // ====================
 
 .post-preview {
-  padding: $spacer-xl 0;
+  padding: $spacer-lg 0;
+
+  @include media-query($screen-md) {
+    padding: $spacer-xl 0;
+  }
 }

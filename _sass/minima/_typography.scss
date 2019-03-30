@@ -14,17 +14,17 @@ h3, h4, h5, p {
 }
 
 h1 {
-  font-size: 4em;
-  font-weight: $font-weight-heavy;
-}
-
-h2 {
   font-size: 3em;
   font-weight: $font-weight-heavy;
 }
 
-h3 {
+h2 {
   font-size: 2em;
+  font-weight: $font-weight-heavy;
+}
+
+h3 {
+  font-size: 1.4em;
   font-weight: $font-weight-bold;
 }
 
@@ -50,12 +50,26 @@ small {
 
 .h1-hero {
   position: relative;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.1em;
   font-weight: $font-weight-heavy;
   margin: 3 * $spacer-xl 0;
+}
 
-  @include media-query($screen-md) {
+@include media-query($screen-md) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  .h1-hero {
     font-size: 8em;
     margin: 3 * $spacer-xl 0 5 * $spacer-xl;
   }
