@@ -4,15 +4,25 @@ title: Film & TV
 permalink: /work/film-tv
 ---
 
-### 2017
+### 2019
+
+[Emma](https://www.imdb.com/title/tt9214832/?ref_=nm_flmg_act_1) — Mr. Weston
+
+[The War of the Worlds](https://www.imdb.com/title/tt8001226/?ref_=nm_flmg_act_3) — Frederick
+
+[Horrible Histories: The Movie](https://www.imdb.com/title/tt7715070/?ref_=nm_flmg_act_4) — Paulinus
+
+### 2018
 
 [Lie of You](http://www.imdb.com/title/tt7531600/?ref_=ttmi_tt) — Eddie
 
 [Silencio](http://www.imdb.com/title/tt7471884/?ref_=nm_flmg_act_3) — Peter
 
+[Swimming with Men](http://www.imdb.com/title/tt6532374/?ref_=nm_flmg_act_1) — Luke
+
 Krypton — Ter El
 
-[Swimming with Men](http://www.imdb.com/title/tt6532374/?ref_=nm_flmg_act_1) — Luke
+### 2017
 
 [12 Monkeys](http://www.imdb.com/title/tt3148266/?ref_=nm_flmg_act_2) — Sebastian
 
@@ -44,8 +54,6 @@ Krypton — Ter El
 
 [Turks & Caicos](http://www.imdb.com/title/tt2904608/?ref_=nm_flmg_act_11) — Stirling Rogers
 
-[Sherlock](http://www.imdb.com/title/tt1475582/?ref_=nm_flmg_act_3) — Inspector Lestrade
-
 ### 2013
 
 [The White Queen](http://www.imdb.com/title/tt2372220/?ref_=nm_flmg_act_12) — Lord Thomas Stanley
@@ -73,6 +81,8 @@ Krypton — Ter El
 [Garrow's Law](http://www.imdb.com/title/tt1477131/?ref_=nm_flmg_act_19) — Sir Arthur Hill
 
 ### 2010
+
+[Sherlock](http://www.imdb.com/title/tt1475582/?ref_=nm_flmg_act_3) — Inspector Lestrade
 
 [Single Father](http://www.imdb.com/title/tt1605467/?ref_=nm_flmg_act_23) — Stuar
 

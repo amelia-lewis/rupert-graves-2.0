@@ -27,14 +27,34 @@ body {
   }
 
   &--right {
+    position: relative;
     background: url("images/site/rg-01.jpg") no-repeat center;
     background-size: cover;
+    display: none;
+
+    .hero-image-caption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: rgba(white, 0.4);
+      color: black;
+      font-size: 0.6em;
+      padding: 2px $spacer-sm;
+
+      &:hover {
+        background: rgba(white, 0.5);
+      }
+    }
   }
 
   @include media-query($screen-md) {
     display: grid;
     grid-template-rows: 100vh;
     grid-template-columns: 2fr 1fr;
+
+    &--right {
+      display: block;
+    }
   }
 
   @include media-query($screen-lg) {

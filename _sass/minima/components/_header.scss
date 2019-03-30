@@ -27,8 +27,8 @@
     border-bottom: 1px solid rgba(white, 0.2);
 
     a {
-      font-size: 1.6em;
-      margin: $spacer-lg 0;
+      font-size: 1.4em;
+      margin: $spacer-mlg 0;
     }
 
     @include media-query($screen-md) {
@@ -86,7 +86,6 @@
   }
 
   @include media-query($screen-md) {
-    width: 50%;
     height: auto;
     left: 0;
     right: auto;
