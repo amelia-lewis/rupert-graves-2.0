@@ -17,14 +17,9 @@ body {
 }
 
 .page-content {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vh;
-
   &--left {
     overflow: auto;
-    padding: $spacer-xl $spacer-mlg $spacer-mlg;
+    padding: 2 * $spacer-xl $spacer-mlg $spacer-mlg;
 
     @include media-query($screen-md) {
       padding: 4 * $spacer-xl 2 * $spacer-xl 2 * $spacer-xl;
@@ -37,6 +32,8 @@ body {
   }
 
   @include media-query($screen-md) {
+    display: grid;
+    grid-template-rows: 100vh;
     grid-template-columns: 2fr 1fr;
   }
 

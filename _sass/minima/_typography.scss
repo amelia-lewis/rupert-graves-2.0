@@ -50,10 +50,10 @@ small {
 
 .h1-hero {
   position: relative;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 1.1em;
   font-weight: $font-weight-heavy;
-  margin: 3 * $spacer-xl 0;
+  margin: 2 * $spacer-xl 0 3 * $spacer-xl;
 }
 
 @include media-query($screen-md) {
