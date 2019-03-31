@@ -2,10 +2,6 @@
 // HEADER
 // ====================
 
-.site-header {
-
-}
-
 .site-nav {
   position: fixed;
   top: 0;
@@ -29,6 +25,10 @@
     a {
       font-size: 1.4em;
       margin: $spacer-mlg 0;
+
+      svg {
+        margin: 0 $spacer-sm 0 0;
+      }
     }
 
     @include media-query($screen-md) {
