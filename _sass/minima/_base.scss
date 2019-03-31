@@ -28,11 +28,14 @@ body {
 
   &--right {
     position: relative;
-    background: url("images/site/rg-01.jpg") no-repeat center;
+    background-color: rgba(white, 0.1);
+    // background-image: url("images/site/rg-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
     background-size: cover;
     display: none;
 
-    .hero-image-caption {
+    .hero-image-credit {
       position: absolute;
       bottom: 0;
       right: 0;

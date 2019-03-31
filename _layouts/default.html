@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body onload="randomImage()">
 
     {%- include header.html -%}
 
@@ -14,9 +14,25 @@
         {%- include footer.html -%}
       </div>
 
-      <div class="page-content--right">
-        <a class="hero-image-caption" href="https://www.bbc.co.uk/bbcone" target="_blank">BBC One</a>
+      <div class="page-content--right" id="randomImage">
+        <a class="hero-image-credit" id="randomImageCredit" href="" target="_blank"></a>
       </div>
     </main>
+
+    <script>
+      var images = [{url: '/assets/images/site/rg-01.jpg', credit: 'BBC One', creditUrl: 'https://www.bbc.co.uk/bbcone'},
+                    {url: '/assets/images/site/rg-02.jpg', credit: 'Company Pictures, Newscope Films', creditUrl: 'http://www.companypictures.co.uk/tv-film/'},
+                    {url: '/assets/images/site/rg-03.jpg', credit: 'Red Production Company', creditUrl: 'http://www.redproductioncompany.com/'},
+                    {url: '/assets/images/site/rg-04.jpg', credit: 'Jeff Spicer/Getty Images', creditUrl: 'https://www.gettyimages.com/'},
+                    {url: '/assets/images/site/rg-05.jpg', credit: 'BBC One', creditUrl: 'https://www.bbc.co.uk/bbcone'}];
+      var image = images[Math.floor(images.length * Math.random())];
+
+      var randomImage = function() {
+        console.log(image);
+        document.getElementById("randomImage").style.backgroundImage = "url('" + image.url + "')";
+        document.getElementById("randomImageCredit").innerHTML = image.credit;
+        document.getElementById("randomImageCredit").href = image.creditUrl;
+      };
+    </script>
   </body>
 </html>
