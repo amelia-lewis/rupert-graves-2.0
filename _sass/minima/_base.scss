@@ -19,10 +19,10 @@ body {
 .page-content {
   &--left {
     overflow: auto;
-    padding: 2 * $spacer-xl $spacer-mlg $spacer-mlg;
+    padding: 2 * $spacer-xl $spacer-mlg 0;
 
     @include media-query($screen-md) {
-      padding: 4 * $spacer-xl 2 * $spacer-xl 2 * $spacer-xl;
+      padding: 4 * $spacer-xl 2 * $spacer-xl 0;
     }
   }
 

@@ -3,7 +3,7 @@
 // ====================
 
 .site-footer {
-  margin: 2 * $spacer-xl 0 0;
+  margin: 2 * $spacer-xl 0 $spacer-mlg;
 
   .contact-details {
     margin: 0 0 $spacer-xl;
@@ -26,6 +26,6 @@
   }
 
   @include media-query($screen-md) {
-    margin: 4 * $spacer-xl 0 0;
+    margin: 4 * $spacer-xl 0 2 * $spacer-xl;
   }
 }
