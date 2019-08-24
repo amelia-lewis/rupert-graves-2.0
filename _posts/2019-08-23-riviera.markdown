@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Julia Stiles puts on a chic display in ornately patterned gown as she joins Sherlock actor Rupert Graves to film Riviera series three in Venice"
+title: "Riviera Series 3"
 category: TV
-external_url: https://www.dailymail.co.uk/tvshowbiz/article-7388677/Julia-Stiles-films-scenes-season-three-Riviera-alongside-Rupert-Graves.html
 ---
+Rupert is in Venice filming series three of Sky Atlantic's Riviera with Julia Stiles.
+
+{% include image.html src="riviera/stiles.jpg" caption="CREDIT: Daily Mail UK" %}
