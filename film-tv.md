@@ -4,23 +4,27 @@ title: Film & TV
 permalink: /work/film-tv
 ---
 
-### 2019
+### 2020
+
+[Seacole](https://www.imdb.com/title/tt4401570/?ref_=nm_flmg_act_1) — Major Harvey
+
+[Lie of You](http://www.imdb.com/title/tt7531600/?ref_=ttmi_tt) — Eddie
+
+[The War of the Worlds](https://www.imdb.com/title/tt8001226/?ref_=nm_flmg_act_3) — Frederick
 
 [Emma](https://www.imdb.com/title/tt9214832/?ref_=nm_flmg_act_1) — Mr. Weston
 
-[The War of the Worlds](https://www.imdb.com/title/tt8001226/?ref_=nm_flmg_act_3) — Frederick
+### 2019
 
 [Horrible Histories: The Movie](https://www.imdb.com/title/tt7715070/?ref_=nm_flmg_act_4) — Paulinus
 
 ### 2018
 
-[Lie of You](http://www.imdb.com/title/tt7531600/?ref_=ttmi_tt) — Eddie
-
 [Silencio](http://www.imdb.com/title/tt7471884/?ref_=nm_flmg_act_3) — Peter
 
 [Swimming with Men](http://www.imdb.com/title/tt6532374/?ref_=nm_flmg_act_1) — Luke
 
-Krypton — Ter El
+[Krypton](https://www.imdb.com/title/tt4276624/?ref_=nm_flmg_act_8) — Ter El
 
 ### 2017
 
