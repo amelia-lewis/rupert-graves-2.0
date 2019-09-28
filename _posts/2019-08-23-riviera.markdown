@@ -1,8 +1,0 @@
----
-layout: post
-title: "Filming Riviera Series 3"
-category: TV
----
-Rupert is in Venice filming series three of Sky Atlantic's Riviera with Julia Stiles.
-
-{% include image.html src="riviera/stiles.jpg" caption="CREDIT: Daily Mail UK" %}
